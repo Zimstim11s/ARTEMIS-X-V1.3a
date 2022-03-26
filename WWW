@@ -1,0 +1,17 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("ARTHUBTP", "Synapse")
+
+-- AIMBOTESP
+
+local Tab = Window:NewTab("AIMBOTESP")
+local AIMBOTESPSection = Tab:NewSection("MAIN")
+
+
+AIMBOTESPSection:NewButton("ESP", "ARTEMISSOHANDSOME", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zimstim11s/espnotmine/main/sss'),true))()
+end)
+
+
+AIMBOTESPSection:NewButton("AIMBOT", "ARTEMISSOHANDSOME", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zimstim11s/hahahah/main/aaa'),true))()
+end)
